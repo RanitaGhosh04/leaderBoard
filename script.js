@@ -62,11 +62,12 @@ const countryImageMap = {
 let container2 = document.querySelector('.container2');
 
 
+
 function updateImage()
 {
-let tempKeyImage = data[0].keyImage;
-data[0].keyImage = data[1].keyImage;
-data[1].keyImage = tempKeyImage;
+// let tempKeyImage = data[0].keyImage;
+// data[0].keyImage = data[1].keyImage;
+// data[1].keyImage = tempKeyImage;
 
     container2.innerHTML = "";
     // imgData =[];
@@ -74,16 +75,9 @@ data[1].keyImage = tempKeyImage;
         if(index<3)
         {
             // imgData.push(imageEl.keyImage);
-           container2.innerHTML+=`<img src='${imageEl.keyImage}' style='width:30%; height:70% 
-           transform-origin: center;
-           transform: perspective(800px) rotateY(10deg);
-           transition: 0.5s;
-           box-shadow: 0px 0px 8px grey;
-           border-radius: 5px;'>`
+           container2.innerHTML+=`<img src='${imageEl.keyImage}' style='width:33.33%; height:70%'>`
         }
     });
-
-
 }
 // Function to add a new player
 
