@@ -10,16 +10,14 @@ let data = [
     {
         fisrtName:'Virat',
         lastName:'Kohli',
-        // counrty:'India',
-        counrty:'./united-states.png',
+        counrty:'./india (1).png',
         playerScore:100,
         keyImage:'https://1.bp.blogspot.com/-Bz6uidKEVWU/X82ZqzXuvyI/AAAAAAAAlEo/Xs-XBR57BnUgTSrAICVLUV4XA-_iuiUyQCLcBGAsYHQ/s1024/Virat.png'
     },
     {
         fisrtName:'Gautam',
         lastName:'Gambhir',
-        // counrty:'India',
-        counrty:'./united-states.png',
+        counrty:'./india (1).png',
         playerScore:265,
         keyImage:'https://img.timesnownews.com/46636997_352325651980766_6905232046311186957_n_1543940281__rend_4_3.jpg'
     },
@@ -27,7 +25,6 @@ let data = [
     {
         fisrtName:'Sourav',
         lastName:'Ganguly',
-        // counrty:'India',
         counrty:'./india (1).png',
         playerScore:150,
         keyImage:'https://images.indiafantasy.com/wp-content/uploads/20210703103918/ganguly2-1.png'
@@ -36,7 +33,6 @@ let data = [
     {
         fisrtName:'Shubham',
         lastName:'Gill',
-        // counrty:'India',
         counrty:'./india (1).png',
         playerScore:180,
         keyImage:'https://staticc.sportskeeda.com/editor/2023/03/e1d14-16788795528975-1920.jpg?w=840'
@@ -45,7 +41,6 @@ let data = [
     {
         fisrtName:'Ishan',
         lastName:'Kishan',
-        // counrty:'India',
         counrty:'./india (1).png',
         playerScore:180,
         keyImage:'https://bodyartguru.com/wp-content/uploads/2021/03/Ishan-Kishan-Cricketer-Tattoos.jpg'
@@ -75,7 +70,7 @@ function updateImage()
         if(index<3)
         {
             // imgData.push(imageEl.keyImage);
-           container2.innerHTML+=`<img src='${imageEl.keyImage}' style='width:33.33%; height:70%'>`
+           container2.innerHTML+=`<img src='${imageEl.keyImage}' style='width:30%; display:inline-block; height:60%; border-radius:20px;  box-shadow: 0px 0px 20px grey'>`
         }
     });
 }
