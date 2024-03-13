@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+        body{
+            display: flex;
+            height: 100vh;
+            /* margin: 0; */
+            width: 100vw;
+            justify-content: space-around;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            font-family: "Madimi One", sans-serif;
+            align-items: center;
+            font-weight: 400;
+            font-style: normal;
+            /* background-color: black; */
+            background-image: url('https://t3.ftcdn.net/jpg/04/55/65/74/360_F_455657494_RBYUGzFelPNaCgdjzT9eXiQp8CdlrF0k.jpg');
+            background-size: contain;
+            background-size: cover;
+        }
+        .container1{
+            /* border: 2px solid black; */
+            width: 45%;
+            height: 70%;
+            border-radius: 10px;
+            color: white;
+            /* background-color: white; */
+            /* background-color: black; */
+            box-shadow: 0px 0px 20px grey
+        }
+
+        .container2{
+            /* border: 2px solid black; */
+            width: 50%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        form{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        input{
+            width: 20%;
+           height: 35px;
+           border-radius: 15px;
+           text-align: center;
+           border: none;
+           font-family: "Madimi One", sans-serif;
+        }
+        select{
+            width: 20%;
+           /* height: px; */
+           border-radius: 15px;
+           text-align: center;
+           margin: 0;
+        }
+        button{
+            border-radius: 15px;
+            border: none;
+            font-family: "Madimi One", sans-serif;
+        }
+
+        .section2{
+            /* border: 2px solid blue; */
+            margin-top: 10%;
+            height: 60%;
+            /* overflow-y: scroll; */
+            /* overflow: hidden; */
+        }
+
+        .parent-div{
+            display:flex; 
+            justify-content:space-around;
+            border:2px solid white;
+            margin:10px;
+            border-radius:10px;
+            height:10%;
+            align-items: center;
+          
+        }
+       
+        /* .span-elements{
+            border: 2px solid black;
+        } */
+        .span-img{
+         width: 35px;
+         
+        }
+
+        .firstName{
+            font-size: 10px;
+        }
+
+        .country{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="section1">
+            <h1>LeaderBoard</h1>
+            <form action="">
+                <input type="text" placeholder="First Name" class="fName">
+                <input type="text" placeholder="Last Name" class="lName">
+                <!-- <input type="text" placeholder="Country" class="country"> -->
+                <select class="country">
+                    <option value="" disabled selected>Select Country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <!-- Add more countries as needed -->
+                </select>
+                
+                <input type="number" placeholder="Player score" class="number">
+                <button>Add Player</button>
+            </form>
+        </div>
+        <div class="section2"></div>
+    </div>
+    <div class="container2"></div>
+    <script src="script.js"></script>
+</body>
+</html>
