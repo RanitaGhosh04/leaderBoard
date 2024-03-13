@@ -42,7 +42,7 @@ let data = [
         fisrtName:'Ishan',
         lastName:'Kishan',
         counrty:'./india (1).png',
-        playerScore:180,
+        playerScore:90,
         keyImage:'https://bodyartguru.com/wp-content/uploads/2021/03/Ishan-Kishan-Cricketer-Tattoos.jpg'
     },
 ]
